@@ -1,0 +1,136 @@
+html, body
+{
+    background-color: lightgreen;     /* to change the whole html page color */
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer
+{
+    background-color: khaki;
+}
+
+h4
+{
+    font-size: 300%;
+    text-align: center;
+}
+
+.pFooter
+{
+    font-size: 220%;
+    text-align: center;
+}
+
+ul
+{
+    list-style-type: none;     /* to remove list bullet point */
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: khaki;     /* to change the bar color */
+    position: sticky;     /* make the bar to stick one the page */
+    top: 0;     /* where should the bar to stick */
+    width: 100%;
+}
+
+li
+{
+    float: left;
+}
+
+.reference
+{
+    float: right;
+}
+
+li a
+{
+    display: block;
+    block-size: 150%;
+    font-size: 150%;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: lightblue;
+}
+
+.active
+{
+    background-color: darkkhaki;
+}
+
+h1
+{
+    text-align: center;
+    color: royalblue;
+    font-size: 160px;
+    text-transform: uppercase;
+}
+
+.p1
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+.margin1
+{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+h2
+{
+    font-size: 100px;
+}
+
+table
+{
+    width: 75%;
+    font-size: 40px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th
+{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+td a
+{
+    text-decoration: none;
+    color: black;
+}
+
+td a:hover
+{
+    color: blue;
+}
+
+h3
+{
+    font-size: 60px;
+}
+
+.tesla
+{
+    max-width: 1000px;
+    max-height: auto;
+}
+
+.top
+{
+    text-align: center;
+}

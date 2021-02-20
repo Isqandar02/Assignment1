@@ -1,0 +1,67 @@
+html, body
+{
+    background-color: lightgreen;     /* to change the whole html page color */
+    margin: 0;
+}
+
+ul
+{
+    list-style-type: none;     /* to remove list bullet point */
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: khaki;     /* to change the bar color */
+    position: sticky;     /* make the bar to stick one the page */
+    top: 0;     /* where should the bar to stick */
+    width: 100%;
+}
+
+li
+{
+    float: left;
+}
+
+.reference
+{
+    float: right;
+}
+
+li a
+{
+    display: block;
+    block-size: 150%;
+    font-size: 150%;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: lightblue;
+}
+
+.active
+{
+    background-color: darkkhaki;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 80px;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.content
+{
+    font-size: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: justify;
+}

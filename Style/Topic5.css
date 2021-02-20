@@ -1,0 +1,108 @@
+html, body
+{
+    background-color: lightblue;
+    margin: 0;
+    font-family: cursive;
+}
+
+ul
+{
+    list-style-type: none;     /* to remove list bullet point */
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: khaki;     /* to change the bar color */
+    position: sticky;     /* make the bar to stick one the page */
+    top: 0;     /* where should the bar to stick */
+    width: 100%;
+}
+
+.li
+{
+    float: left;
+}
+
+.reference
+{
+    float: right;
+}
+
+li a
+{
+    display: block;
+    block-size: 150%;
+    font-size: 150%;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: lightblue;
+}
+
+.active
+{
+    background-color: darkkhaki;
+}
+
+.mainPic
+{
+    width: 100%;
+    height: auto;
+}
+
+h1
+{
+    color: white;
+    font-size: 1000%;
+    text-align: center;
+}
+
+.content
+{
+    text-align: center;
+    font-size: 200%;
+    color: white;
+}
+
+.background1
+{
+    background-image: url(https://s1.cdn.autoevolution.com/images/gallery/TESLA-MOTORS-Model-S-4693_58.jpg);
+    background-size: 100%;
+}
+
+.background2
+{
+    background-image: url(https://cdn.arstechnica.net/wp-content/uploads/2016/09/Tesla-autopilot-dash.jpg);
+    background-size: 100%;
+}
+
+.background3
+{
+    background-image: url(https://www.extremetech.com/wp-content/uploads/2019/02/Tesla-sillouette.jpg);
+    background-size: 100%;
+}
+
+h2
+{
+    color: white;
+    font-size: 500%;
+    text-align: center;
+}
+
+h3
+{
+    text-align: center;
+    font-size: 200%;
+    color: white;
+}
+
+h4
+{
+    text-align: center;
+    font-size: 200%;
+    color: white;
+}
